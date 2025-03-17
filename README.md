@@ -100,7 +100,7 @@ chmod +x run_tests.sh  # (Only needed once)
 - Constructor Timeout (≥2 sec) Fails immediately. Player gets a score of 1 for the board.
 - Move Timeout (≥1 sec per move) Stops playing after timeout, retains partial score.
 
-![Game Example](images/greed.png)
+![Game Example](images/greedjump.png)
 
 ### **🚫 Don'ts**
 ❌ **Modify game logic files (`Board.java`, `Referee.java`, etc.).** If you believe there is an issue or a potential improvement, please report it to the instructor or submit a pull request with a suggested fix.  
