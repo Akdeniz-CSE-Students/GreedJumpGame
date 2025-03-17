@@ -1,0 +1,19 @@
+# Ignore all temporary game logs, generated boards, and snapshots
+#boards/
+#snapshots/
+#results/
+
+# Ignore PlayerMurat and related files
+src/players/PlayerMurat*.java
+snapshots/PlayerMurat_*.txt
+results/PlayerMurat.log
+
+
+# Ignore compiled files (if using `javac`)
+bin/
+
+
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
